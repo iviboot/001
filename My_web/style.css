@@ -65,6 +65,37 @@ section img:hover {
     filter:contrast(120s);
 }
 
+#seccion {
+
+    text-align: center;
+    font-size: x-large;
+    margin: 100px;
+    width: 200px;
+    font-size: 30px;
+    color: rgb(13, 10, 177);
+    font-weight: bold;
+    text-shadow: rgb(0, 128, 128) 0px 1px 0px,
+    rgb(181, 181, 181) 0px 2px 0px,
+    rgb(172, 172, 172) 0px 3px 0px,
+    rgb(160, 160, 160) 0px 4px 0px,
+    rgb(145, 145, 145) 0px 5px 0px,
+    rgb(127, 127, 127) 0px 6px 0px,
+    rgba(0, 0, 0, 0.199219) 0px 7px 1px,
+    rgba(0, 0, 0, 0.296875) 0px 8px 6px;
+}
+
+#tabla1 {
+    margin-right: 50px;
+  
+}
+
+#tabla3 {
+    margin-left: 50px;
+}
+
+#tabla4 {
+    margin-left: 50px;
+}
 
 
 
