@@ -1,3 +1,5 @@
+
+
 body {
     background-color: rgb(20, 18, 18); /* Establecer el color de fondo a negro */
     
@@ -109,6 +111,32 @@ footer {
     rgba(0, 0, 0, 0.199219) 0px 7px 1px,
     rgba(0, 0, 0, 0.296875) 0px 8px 6px;
 
+}
+
+@media all and (min-width: 767px ) { 
+  h1, #img5,section, #seccion, #tabla1, #tabla3, #tabla4, #tabla5, #tabla6, img {
+       
+    text-align: center;           
+                
+    color: aliceblue;
+       
+
+    }
+
+
+}
+
+@media all and (max-width: 1020px ) {
+
+    h1, #img5,section, #seccion, #tabla1, #tabla3, #tabla4, #tabla5, #tabla6, img {
+                  
+                    
+        color: rgb(6, 58, 104);
+           
+    
+        }
+
+    
 }
 
 
