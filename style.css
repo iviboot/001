@@ -139,12 +139,12 @@ footer {
     rgba(0, 0, 0, 0.296875) 0px 8px 6px;
     font-size: x-large;
 }
-@media  (min-width: 300px)  and (orientation: landscape) {
+@media  (min-width: 300px)  and (max-width: 1601px) and (orientation: landscape) {
     .body #tabla1 #tabla3 #tabla4 #tabla5 #tabla6 #img5 #imgglobal #p-principal #wave{
         width: 100%;
+        
         display: grid;
         place-items: center;
-        
         
         
         background-color: blue;}}
