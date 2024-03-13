@@ -3,12 +3,11 @@
 body {
     background-color: rgb(20, 18, 18); /* Establecer el color de fondo a negro */
     
-    width: 100%; /* Ancho completo del contenedor */
-    height: 900px; /* Altura del contenedor (ajusta según sea necesario) */
+    /*width: 100%; /* Ancho completo del contenedor */
+    /*height: 900px; /* Altura del contenedor (ajusta según sea necesario) */
     background-image: url('gato_pizzeria.jpg'); /* Ruta de la imagen de fondo */
     background-size: cover; /* Establece el tamaño de la imagen de fondo para cubrir completamente el contenedor */
     background-position: center; /* Centra la imagen de fondo */
-    
 }
 
 h1 {
@@ -31,12 +30,12 @@ h1 {
 #img5 {
     width: 115px;
     height: 90px; /* Ajustar la altura de la imagen al 100% del contenedor */
-    object-fit: cover;
+    /*object-fit: cover;*/
 }
 
 section {
     display: flex;
-    width: 1930px;
+    width: 1030px;
     height: 330px;
 }
 
@@ -57,11 +56,11 @@ section img:hover {
 }
 
 #seccion {
-
+    
     text-align: center;
     font-size: x-large;
-    margin: 100px;
-    width: 200px;
+   /* margin: 100px;
+    width: 200px;*/
     font-size: 30px;
     color: rgb(0, 0, 0);
     font-weight: bold;
@@ -76,40 +75,24 @@ section img:hover {
 }
 
 #tabla1 {
-    margin-right: 50px;
+    margin-right: 10px;
   
 }
 
 #tabla3 {
-    margin-left: 50px;
+    margin-left: 10px;
 }
 
 #tabla4 {
-    margin-left: 50px;
+    margin-left: 10px;
 }
 
 #tabla5 {
-    margin-left: 50px;
+    margin-left: 10px;
 }
 
 #tabla6 {
-    margin-left: 50px;
-}
-
-#p1, #p2, #p3 {
-    font-size: 30px;
-    color: rgb(255, 255, 255);
-    font-weight: bold;
-    text-shadow: rgb(8, 8, 8) 0px 1px 0px,
-    rgb(181, 181, 181) 0px 2px 0px,
-    rgb(172, 172, 172) 0px 3px 0px,
-    rgb(160, 160, 160) 0px 4px 0px,
-    rgb(145, 145, 145) 0px 5px 0px,
-    rgb(127, 127, 127) 0px 6px 0px,
-    rgba(0, 0, 0, 0.199219) 0px 7px 1px,
-    rgba(0, 0, 0, 0.296875) 0px 8px 6px; 
-
-
+    margin-left: 10px;
 }
 
 h2 {
@@ -125,9 +108,8 @@ h2 {
     rgba(0, 0, 0, 0.199219) 0px 7px 1px,
     rgba(0, 0, 0, 0.296875) 0px 8px 6px;
 }
-
-
 footer {
+    width: 1020px;
     text-align: center;
     color: rgb(15, 11, 11);
     font-weight: bold;
@@ -140,41 +122,23 @@ footer {
     rgba(0, 0, 0, 0.199219) 0px 7px 1px,
     rgba(0, 0, 0, 0.296875) 0px 8px 6px;
 }
-
-
-@media all and (min-width: 767px ) { 
-  h1, #img5,section, #seccion, #tabla1, #tabla3, #tabla4, #tabla5, #tabla6, img, h2, #p1, #p2, #p3, footer {
-       
-    text-align: center;                     
-    color: aliceblue;
-       
-
-    }
-
-
+#p-principal {
+    width: 1030px;
+    text-align: center;
+    color: rgb(15, 11, 11);
+    font-weight: bold;
+    text-shadow: rgb(2, 252, 252) 0px 1px 0px,
+    rgb(181, 181, 181) 0px 2px 0px,
+    rgb(172, 172, 172) 0px 3px 0px,
+    rgb(160, 160, 160) 0px 4px 0px,
+    rgb(145, 145, 145) 0px 5px 0px,
+    rgb(127, 127, 127) 0px 6px 0px,
+    rgba(0, 0, 0, 0.199219) 0px 7px 1px,
+    rgba(0, 0, 0, 0.296875) 0px 8px 6px;
+    font-size: x-large;
 }
-
-@media all and (max-width: 1020px ) {
-
-    h1, #img5,section, #seccion, #tabla1, #tabla3, #tabla4, #tabla5, #tabla6, img {
-                  
-        text-align: center;            
-        color: rgb(6, 58, 104);
-           
-    
-        }
-
-    
-}
-
-
-
-
-
-
-
-
-
-
-
- 
+@media  (min-width: 300px) and (max-width: 1068px) and (orientation: landscape) {
+    .body #tabla1 #tabla3 #tabla4 #tabla5 #tabla6 #img5 #imgglobal #p-principal{
+        width: 100%;
+        
+        background-color: blue;}}
