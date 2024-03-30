@@ -1,6 +1,6 @@
 # 001
 
-Desarrollo web
+Desarrollo web.
 
 interaccion de imagenes
 
