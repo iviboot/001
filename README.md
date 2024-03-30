@@ -2,7 +2,7 @@
 
 Desarrollo web.
 
-interaccion de imagenes
+interaccion de imagenes.
 
 Web estatica.
 
